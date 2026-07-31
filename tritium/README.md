@@ -39,3 +39,9 @@ int main(void)
   return 0;
 }
 </pre>
+
+Executable names
+----------------
+The interpreter changes its default behaviour depending on the file name it is invoked with
+* `bf` defaults to 8-bit cells
+* Any other name (including `bfi`) defaults to native `int` cells
